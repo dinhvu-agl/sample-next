@@ -8,7 +8,7 @@ const Home = ({ data }) => {
   return (
     <div className="home">
       <h1>What Can I Deploy to Static Apps?</h1>
-      <h1 className={styles.title}>
+      <h1>
         Welcome to{' '}
         <a href="https://nextjs.org">Next.js! The time is {serverData.time}</a>
       </h1>
